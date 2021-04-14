@@ -16,6 +16,22 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+p {
+    font-size: 14px;
+
+}
+
+h2 {
+font-weight: bold;
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+a.font-black {
+    color: #000 !important;
+}
+
+
 
 /***************
 
@@ -32,12 +48,12 @@ ABOUT
 #about img {
     border-radius: 50%;
     width: 120px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #about .name {
     font-size: 19px;
-    color: black;
+    color:#000;
 }
 
 #about .vocation {
@@ -47,7 +63,7 @@ ABOUT
 }
 
 #about .skills {
-    font-size: 15px;
+    font-size: 14px;
     color: #00ABAE;
     margin-bottom: 10px;
 }
@@ -66,4 +82,28 @@ ABOUT
 
 #about .icons a {
     color: black;
+}
+
+/*****************
+
+project
+
+******************/
+
+#project {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#project h2 {
+    text-align: center;
+}
+
+#project .card img {
+    width: 100%;
+
+}
+
+#project .card-title {
+    font-weight: bold;
 }
